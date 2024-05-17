@@ -48,7 +48,7 @@ public class Main {
             }
         }
         // Drop non-dominants:
-        // This method it O(dominant^2 + non-dominant)
+        // This method is O(dominant^2 + non-dominant)
         // O(n^2 + n) but as n grows, dominant is much more intensive than
         // non-dominant, so we just drop the non-dominant and keep the notation
         // O(n^2)
