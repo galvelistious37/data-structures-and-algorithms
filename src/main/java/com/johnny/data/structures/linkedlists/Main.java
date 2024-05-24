@@ -19,6 +19,12 @@ public class Main {
         System.out.println(myLinkedList.removeLast().value);
         // Returns null
         System.out.println(myLinkedList.removeLast());
+
+        myLinkedList.prepend(4);
+        myLinkedList.prepend(5);
+        myLinkedList.prepend(6);
+
+        myLinkedList.printList();
     }
 
     private static void createNewNode(){
