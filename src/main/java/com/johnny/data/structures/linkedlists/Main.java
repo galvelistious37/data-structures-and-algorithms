@@ -10,7 +10,15 @@ public class Main {
         LinkedList myLinkedList = new LinkedList(1);
         myLinkedList.append(2);
         myLinkedList.append(3);
-        myLinkedList.printList();
+
+        // Returns Node 3
+        System.out.println(myLinkedList.removeLast().value);
+        // Returns Node 2
+        System.out.println(myLinkedList.removeLast().value);
+        // Returns Node 1
+        System.out.println(myLinkedList.removeLast().value);
+        // Returns null
+        System.out.println(myLinkedList.removeLast());
     }
 
     private static void createNewNode(){
