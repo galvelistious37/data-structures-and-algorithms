@@ -5,7 +5,31 @@ public class Main {
 //        createNewNode();
 //        appendNode();
 //        exampleGet();
-        exampleSet();
+//        exampleSet();
+//        exampleInsert();
+        exampleRemove();
+    }
+
+    private static void exampleRemove() {
+        LinkedList myLinkedList = new LinkedList(11);
+        myLinkedList.append(3);
+        myLinkedList.append(23);
+        myLinkedList.append(7);
+        myLinkedList.printList();
+        System.out.println();
+        System.out.println("Remove Node");
+        myLinkedList.remove(2);
+        myLinkedList.printList();
+    }
+
+    private static void exampleInsert() {
+        LinkedList myLinkedList = new LinkedList(0);
+        myLinkedList.append(2);
+        myLinkedList.printList();
+        System.out.println();
+        System.out.println("Insert a node");
+        myLinkedList.insert(1, 1);
+        myLinkedList.printList();
     }
 
     private static void exampleSet() {
