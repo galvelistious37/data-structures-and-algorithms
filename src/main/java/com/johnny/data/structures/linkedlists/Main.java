@@ -7,7 +7,20 @@ public class Main {
 //        exampleGet();
 //        exampleSet();
 //        exampleInsert();
-        exampleRemove();
+//        exampleRemove();
+        exampleReverse();
+    }
+
+    private static void exampleReverse() {
+        LinkedList myLinkedList = new LinkedList(1);
+        myLinkedList.append(2);
+        myLinkedList.append(3);
+        myLinkedList.append(4);
+        myLinkedList.printList();
+        System.out.println();
+        System.out.println("Reverse the order");
+        myLinkedList.reverse();
+        myLinkedList.printList();
     }
 
     private static void exampleRemove() {
